@@ -124,10 +124,12 @@ dmypy.json
 .pyre/
 
 # Raw data files (can be re-downloaded from Kaggle)
-data/raw/
+data/raw/*
+!data/raw/.gitkeep
 
-# Processed data files (generated from raw data)
-data/processed/
+# Processed data files (generated from raw data) 
+data/processed/*
+!data/processed/.gitkeep
 *.pkl
 *.pickle
 *.h5
