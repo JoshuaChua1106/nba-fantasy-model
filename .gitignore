@@ -123,9 +123,11 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# Data files
-*.csv
-*.json
+# Raw data files (can be re-downloaded from Kaggle)
+data/raw/
+
+# Processed data files (generated from raw data)
+data/processed/
 *.pkl
 *.pickle
 *.h5
